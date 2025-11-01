@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   appearance: 'dark',
   title: '智能客服',
-  description: '新一代代码编辑器',
+  description: '电商智能客服机器人',
   lang: 'zh-CN',
   themeConfig: {
     logo: { src: '/logo.png', width: 24, height: 24 },
@@ -14,8 +14,8 @@ export default defineConfig({
         text: "v1.0.7",
         items: [
           {
-            text: 'v1.0.0',
-            link: 'https://vuejs.github.io/vitepress/v1/'
+            text: '更新日志',
+            link: '/changelog'
           }
         ]
       },
@@ -43,8 +43,8 @@ export default defineConfig({
         text: '知识库',
         collapsed: true,
         items: [
-          { text: '创建分组', link: '/features' },
-          { text: '创建规则', link: '/about' },
+          { text: '创建分组', link: '/create_group' },
+          { text: '创建规则', link: '/create_rule' },
         ]
       }
     ],
