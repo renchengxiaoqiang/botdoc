@@ -10,6 +10,15 @@ export default defineConfig({
     nav: [
       { text: '文档', link: '/features' },
       { text: '关于', link: '/about' },
+      {
+        text: "v1.0.7",
+        items: [
+          {
+            text: 'v1.0.0',
+            link: 'https://vuejs.github.io/vitepress/v1/'
+          }
+        ]
+      },
       { text: '立即下载', link: '/bot_setup.exe' },
     ],
     footer: {
