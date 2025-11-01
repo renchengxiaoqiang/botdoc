@@ -1,0 +1,209 @@
+/* Custom styles for Qoder website */
+/* 隐藏主题切换按钮 */
+/* Hero section center alignment and width control */
+.VPHero {
+  text-align: center !important;
+}
+
+.VPHero .container {
+  max-width: var(--vp-layout-max-width) !important;
+  margin: 0 auto !important;
+  padding: 0 24px !important;
+}
+
+.VPHero .main {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  text-align: center !important;
+  max-width: 100% !important;
+}
+
+.VPHero .name,
+.VPHero .text,
+.VPHero .tagline {
+  text-align: center !important;
+  max-width: 100% !important;
+  width: 100% !important;
+}
+
+.VPHero .text {
+  font-size: clamp(2rem, 5vw, 4rem) !important;
+  line-height: 1.2 !important;
+  white-space: normal !important;
+}
+
+.VPHero .tagline {
+  font-size: clamp(1.1rem, 2.5vw, 1.5rem) !important;
+  line-height: 1.4 !important;
+  max-width: 80% !important;
+  margin: 0 auto !important;
+}
+
+.VPHero .actions {
+  justify-content: center !important;
+}
+
+/* Full width image styling */
+.full-width-image {
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+  max-width: none;
+}
+
+.full-width-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Features grid styling */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.feature-card {
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card h3 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+}
+
+.feature-card p {
+  color: #6c757d;
+  line-height: 1.6;
+}
+
+/* Override VitePress default styles for better card display */
+.vp-doc .features-grid {
+  max-width: none !important;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .features-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  .feature-card {
+    padding: 1rem;
+  }
+}/* Custom 
+Footer Styles */
+.VPFooter {
+  background-color: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+  padding: 2rem 0;
+  margin-top: 4rem;
+}
+
+.VPFooter .container {
+  max-width: var(--vp-layout-max-width);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.VPFooter .message {
+  color: #6c757d;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.VPFooter .copyright {
+  color: #495057;
+  font-size: 14px;
+  text-align: center;
+  font-weight: 500;
+}
+
+/* Social Links in Footer */
+.VPSocialLinks {
+  justify-content: center;
+}
+
+.VPSocialLink {
+  color: #6c757d;
+  transition: color 0.2s ease;
+}
+
+.VPSocialLink:hover {
+  color: #007bff;
+}
+
+/* Enhanced Footer Layout */
+.custom-footer {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 3rem 0 2rem;
+  margin-top: 4rem;
+}
+
+.custom-footer .footer-content {
+  max-width: var(--vp-layout-max-width);
+  margin: 0 auto;
+  padding: 0 24px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+}
+
+.custom-footer .footer-section h4 {
+  color: white;
+  margin-bottom: 1rem;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.custom-footer .footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.custom-footer .footer-section ul li {
+  margin-bottom: 0.5rem;
+}
+
+.custom-footer .footer-section ul li a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.custom-footer .footer-section ul li a:hover {
+  color: white;
+}
+
+.custom-footer .footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin-top: 2rem;
+  padding-top: 1rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .custom-footer .footer-content {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
