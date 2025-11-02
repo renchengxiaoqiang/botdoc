@@ -23,7 +23,7 @@ export default defineConfig({
     ],
     footer: {
       message: '基于 MIT 许可发布',
-      copyright: 'Copyright © 2024'
+      copyright: 'Copyright © 2025'
     },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/renchengxiaoqiang/pdkbot' },
@@ -43,8 +43,8 @@ export default defineConfig({
         text: '知识库',
         collapsed: true,
         items: [
-          { text: '创建分组', link: '/create_group' },
-          { text: '创建规则', link: '/create_rule' },
+          { text: '创建分组', link: '/kownledge/' },
+          { text: '创建规则', link: '/kownledge/create_rule' },
         ]
       }
     ],
