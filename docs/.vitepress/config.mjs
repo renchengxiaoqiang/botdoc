@@ -33,7 +33,7 @@ export default defineConfig({
         text: '简介',
         collapsed: true,
         items: [
-          { text: '如何下载', link: '/guide/index' },
+          { text: '如何下载', link: '/guide/' },
           { text: '安装注册', link: '/guide/install' },
           { text: '快速上手', link: '/guide/getting-started' },
           { text: '如何购买', link: '/guide/how-to-buy' },
