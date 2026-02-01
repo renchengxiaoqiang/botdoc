@@ -11,7 +11,7 @@ export default defineConfig({
       { text: '文档', link: '/features' },
       { text: '关于', link: '/about' },
       {
-        text: "v1.0.9",
+        text: "v1.1.0",
         items: [
           {
             text: '更新日志',
