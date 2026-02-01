@@ -22,7 +22,7 @@ features:
     details: 现代化的FluehtUI，简洁直观的设计。
   
   - title: 多平台支持
-    details: 支持京东，拼多多，抖店，(快手，闲鱼)。
+    details: 支持千牛，京东，拼多多，抖店，快手，闲鱼。
 
 ---
 
