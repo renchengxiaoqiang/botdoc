@@ -19,7 +19,7 @@ features:
     details: 支持扣子智能体, 微调大模型， 软件自有知识库。
   
   - title: 现代化UI
-    details: 现代化的FluehtUI，简洁直观的设计。
+    details: 现代化的FluentUI，简洁直观的设计。
   
   - title: 多平台支持
     details: 支持千牛，京东，拼多多，抖店，快手，闲鱼。
